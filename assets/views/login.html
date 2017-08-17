@@ -1,0 +1,21 @@
+<md-content class="md-padding" layout="column" layout-align="center center" layout-wrap>
+<h1>Login to continue</h1>
+<md-card class="md-padding" style="width:500px;">
+<form>
+<md-input-container class="md-icon-float md-block">
+      <label>Email</label>
+      <md-icon class="material-icon" style="font-size:28px;">mail_outline</md-icon>
+      <input ng-model="email" type="text">
+</md-input-container>
+<md-input-container class="md-icon-float md-block">
+      <label>Password</label>
+      <md-icon class="material-icon" style="font-size:28px;">fingerprint</md-icon>
+      <input ng-model="password" type="password">
+</md-input-container>
+<div layout="row" layout-align="center center">
+<md-button class="md-raised md-primary" ng-click="signIn()">Login</md-button>
+<md-button class="md-raised md-primary" ng-click="signUp()">Register</md-button>
+</div>
+</form>
+</md-card>
+</md-content>
